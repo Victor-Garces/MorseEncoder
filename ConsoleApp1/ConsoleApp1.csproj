@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MorseEncoder\MorseEncoder.csproj">
+      <Project>{3A7D3381-8F71-4064-9F76-6BBF6638292A}</Project>
+      <Name>MorseEncoder</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
