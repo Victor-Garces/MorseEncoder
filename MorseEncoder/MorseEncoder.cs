@@ -42,16 +42,21 @@ namespace MorseEncoder
            {'6', "-...."},
            {'7', "--..."},
            {'8', "---.."},
-           {'9', "----."}
+           {'9', "----."},
+           { ' ', " " }
         };
 
         public string TextToMorse(string input)
         {
-            string[] morseArray = input.ToLower()
+            string[] words = GetWordsFromInput(input);
+            string[] morseArray = string.Join(" ", words)
                 .Select(character => MorseDictionary[character]).ToArray();
             string morseEncoded = string.Join("", morseArray);
 
             return morseEncoded;
         }
+
+        private string[] GetWordsFromInput(string input)
+            => input.ToLower().Split(' ').Where(word => word != string.Empty).ToArray();
     }
 }
