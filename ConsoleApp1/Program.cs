@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 
 namespace ConsoleApp1
 {
@@ -7,6 +8,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine();
+
+            MorseViewController MorseController = new MorseViewController(args);
         }
     }
 }

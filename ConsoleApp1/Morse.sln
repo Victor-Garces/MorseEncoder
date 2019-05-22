@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.352
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1.csproj", "{6F8767D4-E9BC-4748-99BB-2655364E4E36}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseEncoder", "..\MorseEncoder\MorseEncoder.csproj", "{3A7D3381-8F71-4064-9F76-6BBF6638292A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseEncoder.Test", "..\MorseEncoder.Test\MorseEncoder.Test.csproj", "{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseViewController.Test", "MorseViewController.Test\MorseViewController.Test.csproj", "{1643A79F-055A-481A-9237-B1334033302A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1643A79F-055A-481A-9237-B1334033302A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1643A79F-055A-481A-9237-B1334033302A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1643A79F-055A-481A-9237-B1334033302A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1643A79F-055A-481A-9237-B1334033302A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
