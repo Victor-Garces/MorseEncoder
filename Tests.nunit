@@ -2,10 +2,10 @@
   <Settings activeconfig="Debug"/>
   <Config name="Debug">
     <assembly path="App.BDD\bin\Debug\App.BDD.dll"/>
-    <assembly path="MorseEncoder.Test\bin\Debug\LibraryUI.dll"/>
+    <assembly path="MorseEncoder.Test\bin\Debug\MorseEncoder.Test.dll"/>
   </Config>
   <Config name="Release">
     <assembly path="App.BDD\bin\Release\Library.dll"/>
-    <assembly path="MorseEncoder.Test\bin\Release\LibraryUI.dll"/>
+    <assembly path="MorseEncoder.Test\bin\Release\MorseEncoder.Test.dll"/>
   </Config>
 </NUnitProject>
