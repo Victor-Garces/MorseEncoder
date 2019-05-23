@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseEncoder", "..\MorseEnc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseEncoder.Test", "..\MorseEncoder.Test\MorseEncoder.Test.csproj", "{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseViewController.Test", "MorseViewController.Test\MorseViewController.Test.csproj", "{1643A79F-055A-481A-9237-B1334033302A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseViewController.Test", "..\MorseViewController.Test\MorseViewController.Test.csproj", "{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6688EF78-1EC9-42B9-BC43-EC1BAAEFBF0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1643A79F-055A-481A-9237-B1334033302A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1643A79F-055A-481A-9237-B1334033302A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1643A79F-055A-481A-9237-B1334033302A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1643A79F-055A-481A-9237-B1334033302A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
