@@ -1,13 +1,14 @@
 ﻿using NUnit.Framework;
 using System.Diagnostics;
 using System.IO;
+using System;
 
 namespace App.BDD
 {
     [TestFixture]
     public class AppBTest
     {
-        private static readonly string CurrentDirectory = System.AppDomain.CurrentDomain.BaseDirectory;
+        private static readonly string CurrentDirectoryTest = TestContext.CurrentContext.TestDirectory;
 
         [Test]
         public void Given_Empty_String_Return_Empty()
@@ -31,7 +32,7 @@ namespace App.BDD
                     Arguments = input,
                     CreateNoWindow = true,
                     WindowStyle = ProcessWindowStyle.Hidden,
-                    FileName = Path.Combine(@"C:\Users\Raul Caminero\Documents\MorseEncoder\MorseEncoder\ConsoleApp1\bin\Debug\", "ConsoleApp1.exe"),
+                    FileName = Path.Combine(CurrentDirectoryTest, "ConsoleApp1.exe"),
                     RedirectStandardError = true,
                     RedirectStandardInput = true,
                     RedirectStandardOutput = true,
@@ -41,6 +42,6 @@ namespace App.BDD
             };
 
             return process;
-        } 
+        }
     }
 }
