@@ -20,10 +20,24 @@ namespace ConsoleApp1
         {
             MorseEncoder.MorseEncoder encoder = new MorseEncoder.MorseEncoder();
 
-            var encoded =  encoder.TextToMorse(string.Join(" ", _args));
+            var encoded = encoder.TextToMorse(string.Join(" ", _args));
 
             return encoded;
         }
 
+        public string CheckMaxFlag()
+        {
+            if (_args.Contains("-max"))
+            {
+                return int.TryParse(_args[Array.IndexOf(_args, "-max") + 1], out int number) ? number.ToString() : "Invalid max parameter";
+            }
+
+            return string.Empty;
+        }
+
+        public bool HasBeep()
+        {
+            return _args.Contains("-b");
+        }
     }
 }
