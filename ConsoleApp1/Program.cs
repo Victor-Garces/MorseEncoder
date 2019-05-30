@@ -7,10 +7,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
-
-            MorseViewController MorseController = new MorseViewController(args);
-            MorseController.PassDataToEncoder();
+            MorseViewController viewController = new MorseViewController(args);
+            var messageEncoded = viewController.PassDataToEncoder();
+            Console.WriteLine(messageEncoded);
         }
     }
 }

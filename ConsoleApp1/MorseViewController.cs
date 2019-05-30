@@ -16,11 +16,13 @@ namespace ConsoleApp1
             _args = args;
         }
 
-        public void PassDataToEncoder()
+        public string PassDataToEncoder()
         {
             MorseEncoder.MorseEncoder encoder = new MorseEncoder.MorseEncoder();
 
-            encoder.TextToMorse("hola");
+            var encoded =  encoder.TextToMorse(string.Join(" ", _args));
+
+            return encoded;
         }
 
     }

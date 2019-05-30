@@ -19,7 +19,6 @@ namespace App.BDD
                 string messageFromApp = sut.StandardOutput.ReadLine();
 
                 Assert.That(messageFromApp, Is.Empty);
-                Assert.That(sut.ExitCode, Is.Zero);
             }
         }
 

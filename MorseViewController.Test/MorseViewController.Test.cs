@@ -13,14 +13,14 @@ namespace MorseViewController.Test
     {
 
 
-        [TestCase("", "")]
-        public void Given_Empty_String_Args(string input, string output)
+        [TestCase(new string[] {""}, "")]
+        public void Given_Empty_String_Args(string[] input, string output)
         {
-            String[] stringArray = new String[0];
+            string[] stringArray = new string[0];
             ConsoleApp1.MorseViewController viewControl = new ConsoleApp1.MorseViewController(stringArray);
-            viewControl.PassDataToEncoder();
+           
             
-            Assert.That(morseCode, Is.EqualTo(output));
+            Assert.That(viewControl.PassDataToEncoder(), Is.EqualTo(output));
         }
     }
 }
