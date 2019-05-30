@@ -10,6 +10,7 @@ namespace ConsoleApp1
             Console.WriteLine();
 
             MorseViewController MorseController = new MorseViewController(args);
+            MorseController.PassDataToEncoder();
         }
     }
 }
