@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseEncoder.Test", "..\Mor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseViewController.Test", "..\MorseViewController.Test\MorseViewController.Test.csproj", "{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beeper", "..\Beeper\Beeper.csproj", "{95826517-1462-43EA-AA7C-A4C0EC352F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beeper.Test", "..\Beeper.Test\Beeper.Test.csproj", "{067B774B-B541-4B74-B03A-472675E403BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE7034A8-75D8-40DA-89F6-1C0A27FD627D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95826517-1462-43EA-AA7C-A4C0EC352F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95826517-1462-43EA-AA7C-A4C0EC352F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95826517-1462-43EA-AA7C-A4C0EC352F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95826517-1462-43EA-AA7C-A4C0EC352F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067B774B-B541-4B74-B03A-472675E403BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067B774B-B541-4B74-B03A-472675E403BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067B774B-B541-4B74-B03A-472675E403BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067B774B-B541-4B74-B03A-472675E403BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
