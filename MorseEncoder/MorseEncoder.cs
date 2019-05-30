@@ -50,7 +50,7 @@ namespace MorseEncoder
         {
             string[] words = GetWordsFromInput(input);
             string[] morseArray = string.Join(" ", words)
-                .Select(character => MorseDictionary[character]).ToArray();
+                .Select(character => MorseDictionary[character] + "|").ToArray();
             string morseEncoded = string.Join("", morseArray);
 
             return morseEncoded;
